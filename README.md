@@ -1,20 +1,28 @@
-<h1>Home Lab</h1>
+<h1>Nessus Installation and Usage in Kali Linux</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of installation and usage of Nessus Essentials on Kali Linux platform.  Nessus is a proprietary software developed by Teneable, Inc. for use in vulnerability scanning, host discovery, vulnerability management.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Kali Linux</b> (2023.3)
+- <b>Nessus Essentials</b> (10.6.1)
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Kali Linux</b> (2023.3)
+
+<h2>Download and Installation</h2>
+Utilizing free Nessus Essentials:
+https://www.tenable.com/downloads/nessus?loginAttempted=true
+
+1. Select download version & platform, in this case using Nessus Version - 10.6.1 and Platform Linux - Debian - amb64 (for Kali Linux)
+2. Start and Setup: Open Nessus Essentials and follow the wizard.
+3. https://docs.tenable.com/nessus/Content/GettingStarted.htm (Getting Started documentation for Nessus)
 
 <h2>Program walk-through:</h2>
 
